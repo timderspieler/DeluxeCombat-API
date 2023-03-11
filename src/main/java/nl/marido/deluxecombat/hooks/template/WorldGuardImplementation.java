@@ -12,9 +12,7 @@ public abstract class WorldGuardImplementation extends HookTemplate {
 
     public abstract boolean allowFight(Location location, Player p);
     public abstract String getRegionName(Location location);
-    public abstract boolean isTagAllowed(Location location);
     public abstract boolean isKeepInventory(Location location);
-    public abstract boolean isForcePvP(Location location);
     public abstract boolean hasPvPFlag(Location loc);
     public abstract Set<String> getOwners(Location loc);
     public abstract Set<String> getOwnerGroups(Location loc);
