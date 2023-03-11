@@ -1,0 +1,9 @@
+addons:
+  - WorldGuardAddon
+
+WorldGuardAddon:
+  version: "1.0"
+  name: "WorldGuard Integration"
+  description: "Adds region barrier functionalities to DeluxeCombat"
+  icon: "WOODEN_AXE"
+  download: "https://github.com/timderspieler/DeluxeCombat-API/raw/main/Addons/WorldGuard-Addon-Modern-1.0.jarccx"

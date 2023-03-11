@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac5446c2-3f37-45c5-847c-a5af901de1da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Addons/DeluxeCombat-Addons.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Addons/WorldGuard-Addon-Modern-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac5446c2-3f37-45c5-847c-a5af901de1da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,21 +65,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;0f3e22&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;Z:/Tim/IntelliJ/DeluxeCombat-API/src/main/java/nl/marido/deluxecombat/hooks/template&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "0f3e22",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "Z:/Tim/IntelliJ/DeluxeCombat-API/src/main/java/nl/marido/deluxecombat/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Tim\IntelliJ\DeluxeCombat-API\src\main\java\nl\marido\deluxecombat\hooks\template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\Tim\IntelliJ\DeluxeCombat-API\Addons" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.DeluxeCombat-API [jar]">
@@ -146,7 +151,8 @@
       <updated>1673096626166</updated>
       <workItem from="1673096630327" duration="2860000" />
       <workItem from="1673730474006" duration="215000" />
-      <workItem from="1673730696712" duration="3076000" />
+      <workItem from="1673730696712" duration="4335000" />
+      <workItem from="1678557310515" duration="794000" />
     </task>
     <servers />
   </component>
