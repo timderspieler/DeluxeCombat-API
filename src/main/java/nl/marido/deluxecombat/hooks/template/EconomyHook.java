@@ -15,7 +15,4 @@ public abstract class EconomyHook extends HookTemplate {
 	public abstract void depositAdminAccount(String account, double amount);
 	public abstract String currencyName(boolean plural);
 	
-	@Override
-	public void register() {}
-	
 }

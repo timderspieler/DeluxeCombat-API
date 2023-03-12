@@ -11,8 +11,5 @@ public abstract class ClanHook extends CombatHook {
 	public abstract boolean inSameClan(Player one, Player two);
 	
 	public abstract boolean areAllied(Player one, Player two);
-	
-	@Override
-	public void register() {}
 
 }

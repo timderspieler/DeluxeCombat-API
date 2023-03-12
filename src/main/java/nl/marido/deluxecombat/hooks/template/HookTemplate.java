@@ -33,5 +33,7 @@ public abstract class HookTemplate {
 	}
 	
 	public void register() {}
+
+	public void unregister() {}
 	
 }

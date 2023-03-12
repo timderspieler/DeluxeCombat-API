@@ -37,7 +37,4 @@ public abstract class ItemHook extends HookTemplate {
 		return null;
 	}
 	
-	@Override
-	public void register() {}
-	
 }
