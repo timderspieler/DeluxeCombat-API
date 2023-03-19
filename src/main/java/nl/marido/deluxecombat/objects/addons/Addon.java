@@ -35,6 +35,7 @@ public abstract class Addon {
     public abstract String getVersion();
     public abstract String getMaterial();
     public abstract String getDescription();
+    public abstract void unregister();
 
     public class SettingDescription {
         private String name;

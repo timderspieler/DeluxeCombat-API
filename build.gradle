@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'nl.marido.deluxecombat'
-version '1.2.3'
+version '1.2.4'
 
 repositories {
 
