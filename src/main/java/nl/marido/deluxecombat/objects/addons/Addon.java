@@ -1,12 +1,13 @@
 package nl.marido.deluxecombat.objects.addons;
 
 import nl.marido.deluxecombat.utils.tuple.Pair;
+import org.bukkit.event.Listener;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public abstract class Addon {
+public abstract class Addon implements Listener {
 
     private Map<String, Pair<SettingDescription, Boolean>> booleanMap;
     private Map<String, Pair<SettingDescription, Integer>> integerMap;
@@ -39,14 +40,17 @@ public abstract class Addon {
 
     public class SettingDescription {
         private String name;
+        private int slot;
         private String description;
         private String allowedValues;
-        public SettingDescription(String name, String description, String allowedValues) {
+        public SettingDescription(String name, int slot, String description, String allowedValues) {
             this.name = name;
+            this.slot = slot;
             this.description = description;
             this.allowedValues = allowedValues;
         }
         public String getName() { return name; }
+        public int getSlot() { return slot; }
         public String getDescription() { return description; }
         public String getAllowedValues() { return allowedValues; }
     }
