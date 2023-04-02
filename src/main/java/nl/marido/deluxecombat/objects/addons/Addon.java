@@ -37,6 +37,7 @@ public abstract class Addon implements Listener {
     public abstract String getMaterial();
     public abstract String getDescription();
     public abstract void unregister();
+    public abstract void register();
 
     public class SettingDescription {
         private String name;
