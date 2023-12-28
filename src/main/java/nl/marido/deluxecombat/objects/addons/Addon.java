@@ -15,6 +15,12 @@ public abstract class Addon implements Listener {
     private Map<String, Pair<SettingDescription, Double>> doubleMap;
     private Map<String, Pair<SettingDescription, String>> stringMap;
 
+    /**
+     * Are all the plugins on the required plugins list required, or
+     * has just one of the listed plugins be installed?
+     */
+    private boolean orRequirement = false;
+
     public Addon() {
         this.booleanMap = new HashMap<>();
         this.integerMap = new HashMap<>();
@@ -29,6 +35,8 @@ public abstract class Addon implements Listener {
     public Map<String, Pair<SettingDescription, Double>> getDoubleMap() { return doubleMap; }
     public Map<String, Pair<SettingDescription, String>> getStringMap() { return stringMap; }
 
+    public boolean isOrRequirement() { return orRequirement; }
+
     public abstract String getName();
     public abstract String getInternalName();
     public abstract String getAuthor();
@@ -38,6 +46,15 @@ public abstract class Addon implements Listener {
     public abstract String getDescription();
     public abstract void unregister();
     public abstract void register();
+
+    /**
+     * Changes the requirement list type.
+     * @param hasJustOnePluginBeInstalled True, if just one of the required plugins has to be installed, false
+     *                                    if all the plugins that are listed as required to be installed.
+     */
+    public void setOrRequirement(boolean hasJustOnePluginBeInstalled) {
+        this.orRequirement = hasJustOnePluginBeInstalled;
+    }
 
     public class SettingDescription {
         private String name;
