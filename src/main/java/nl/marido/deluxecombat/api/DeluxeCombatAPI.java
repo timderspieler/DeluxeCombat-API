@@ -148,6 +148,14 @@ public class DeluxeCombatAPI {
     }
 
     /**
+     * Retrieves the remaining combat time in milliseconds for a given player.
+     *
+     * @param  p  the player for whom to retrieve the remaining combat time
+     * @return    the remaining combat time in milliseconds, or 0L if no combat time is remaining
+     */
+    public long getRemainingCombatTimeMillis(Player p) { return 0L; }
+
+    /**
      * Marks a player as in combat for a given amount of time.
      * @param target The player that should be tagged.
      * @param attacker The object that hit the player. Can be a player or an entity. Can be null.
